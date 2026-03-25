@@ -21,7 +21,7 @@ jobs:
           # To enable npm/dotnet/gradle non-lock file scanning, add: --package-json / --dotnet-proj / --gradle
         env:
           # ENABLE_TRIVY_STDOUT: true
-          # TRIVY_DEBUG: true
+          ## TRIVY_DEBUG: true
           AQUA_KEY: ${{ secrets.AQUA_KEY }}
           AQUA_SECRET: ${{ secrets.AQUA_SECRET }}
           TRIVY_RUN_AS_PLUGIN: 'aqua'
