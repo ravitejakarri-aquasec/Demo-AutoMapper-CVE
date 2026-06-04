@@ -1,0 +1,3 @@
+ignore:
+  - vulnerabilityID: "GHSA-rvv3-g6hj-g44x"
+    reason: "AutoMapper vulnerability - pending upgrade to patched version 16.1.1"
